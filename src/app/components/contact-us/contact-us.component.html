@@ -1,0 +1,86 @@
+
+
+<!--<div class="main-content">
+    <div class="section-content section-content-p30">
+        <div class="container-fluid">
+            
+            <form #login="ngForm" novalidate  class="contact-form" (ngSubmit)="onSubmit()">
+                <tbody>
+                    <tr>
+                    UserName:
+                    <td><input type="text" name="user_name" placeholder="Enter your User Name" [(ngModel)]="user.user_name"></td>
+                    </tr>
+                <tr><br></tr>
+                    <tr>
+                        Email:<td><input type="email" name="email" placeholder="Enter your Email" [(ngModel)]="user.email"></td>
+                    </tr>
+                
+                <tr><br></tr>
+                    <tr>
+                        <td><button class="btn btn-info" type="submit">Submit</button></td>
+                    </tr>
+                <tr><br></tr> 
+                <tr>
+                    <td><a [routerLink]="['/contact-form']">contact</a></td>
+                </tr> 
+                 
+            </form>
+        
+        </div></div></div>
+    -->
+
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+          <p>Swing by for a cup of coffee, or leave us a message:</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="../assets/images/Contact Us/C.png" style="width:70%">
+         
+       
+         
+         
+                                       
+          </div>
+          <div class="column">
+            <form action="/action_page.php">
+                
+              <label for="fullname">Full Name: </label>
+              <input type="text" id="fullname" name="fullname" placeholder="Your name.."><br/>
+      <div class="column">
+            Email:<input type="text" id="Email" name="Email" placeholder="email.." style="height: 60px;width:250px">
+        </div> <div class="column">
+            Phoneno:<input type="number" pattern="^((\+91[0-9]{10})|(0[0-9]{10}))$"  required id=" Phoneno" name="Phoneno" placeholder="number..." style="height: 60px;width:250px">
+            <!-- <input type="text" maxlength="13" pattern="^((\+91[0-9]{10})|(0[0-9]{10}))$"  required   name="text" id="phoneno" class="text" placeholder=" Mobile Number" style="height: 60px;width:250px" >  -->
+
+        </div>
+            <div>
+                <form>
+              <label>City:</label>
+              <select>
+              <!-- <select id="City" name="City"> -->
+                <option value="select">select</option>
+                <option value="Visakhapatnam">Visakhapatnam</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Bengalore">Bengalore</option>
+                <option value="chennai">chennai</option>
+            
+              </select>
+                </form>
+            </div>
+            
+            
+              <label>Subject:</label>
+              <input type="text" name="subject" placeholder="Enter your message here.." style="height: 60px;width:250px"><br/>
+              <input type="submit" value="Submit" >
+            </form>
+          </div>
+        </div>
+
+
+                       
+                   
+    

@@ -1,0 +1,9 @@
+section{
+    display:flex;
+}
+.side-bar{
+    background-color:rgb(21, 207, 249);
+    width:15%;
+    margin-left:0;
+    padding-left:2%;
+}

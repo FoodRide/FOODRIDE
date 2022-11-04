@@ -1,0 +1,41 @@
+.info, .error {
+	padding: 0px 2px;
+   }
+   .info {
+    color:blue;
+   }
+   .error {
+	color:red;
+   }
+
+   form{
+      margin-left:30%;
+      margin-top:10%;
+      margin-right:30%;
+      margin-bottom: 40%;
+      border-color: rgb(79, 158, 160);
+      border-radius: 5px;
+      border-style: ridge;
+      padding:10px;
+   }
+   button{
+      margin-left: 90%;
+   }
+   .btn{
+      margin-left:100%;
+      background-color: rgb(21, 199, 27);
+      text-decoration: none;
+      border: 2p solid transparent;
+      font-weight: bold;
+      padding: 10px 25px;
+      border-radius: 30px;
+      transition: transform 0.5s;
+  
+     }
+     .btn:hover{
+      color: rgb(36, 15, 172);
+      transform: scale(1.2);
+  }
+   #link{
+      margin-left: 50%;
+   }
